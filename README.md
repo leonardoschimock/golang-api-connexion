@@ -24,12 +24,14 @@ O objetivo deste repositório é estudo prático de:
 ```
 .
 ├── main.go
-├── routes/
-│   └── routes.go
-├── handlers/
-│   └── books.go
-├── services/
-│   └── google_books.go
+├── router/
+|   └── router.go
+│   └── routes/
+|       └── routes.go
+├── handler/
+│   └── books_handler.go
+├── go.sum
+├── go.mod
 └── README.md
 ```
 
